@@ -8,6 +8,7 @@ function getMenu() {
             data.forEach(item => {
                 const menuItem = document.createElement('div');
                 menuItem.className = 'menu-item';
+                
                 menuItem.innerText = `${item.name} - $${item.price}`;
                 menu.appendChild(menuItem);
             });

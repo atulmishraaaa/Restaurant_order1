@@ -164,4 +164,28 @@ body {
     padding-left: 120px;
     color:azure;
   }
-  
+
+#orderStatus {
+    margin-top: 20px;
+    color: white;
+}
+.menu-item {
+    margin: 10px 0;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    color: white;
+}
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    background-color: #007BFF;
+    color: white;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
